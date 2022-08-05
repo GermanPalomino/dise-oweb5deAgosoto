@@ -1,0 +1,10 @@
+/*
+que es CSS (cascafing style sneets)
+
+Es un lenguaje aliado a html que nos permite formatear de una agradable al ojo humano, los documentos html, es decir que es im 
+*/
+h2{
+    color: purple;
+    background-color: azure;
+    text-align: left;
+}

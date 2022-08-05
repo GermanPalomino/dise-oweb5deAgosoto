@@ -1,0 +1,47 @@
+/*
+que es CSS (cascafing style sneets)
+
+Es un lenguaje aliado a html que nos permite formatear de una agradable al ojo humano, los documentos html, es decir que es ienguaje de estilos para documentos html
+
+La estructura básica para trabajar en css es
+
+selector{
+    atributo:valor;
+}
+
+selector: selecciona que elemento se va a modificar
+
+1. selector por etiqueta cambia el estilo de todas las etiquetas
+2. selector por clase cambia el estilo del elemento que use en su atributo class el estilo
+3. selector por ID cambia el estilo o modifica el estilo del elemento que posea el ID
+4. Selector universal:*
+*/
+*{
+    margin:0;
+    padding:0;
+}
+
+h2{
+    color: purple;
+    background-color: azure;
+    text-align: left;
+}
+
+/*
+selector por clase:" . "
+*/
+.articulo1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    background-color: azure;
+    padding: 0px 0px 10px 4px;
+}
+/*
+Selector por ID
+*/
+#segundoparrafo{
+    border-radius: 5px;
+    background-color: darkgrey;
+    color: darkorchid;
+    padding: 5px;
+}
